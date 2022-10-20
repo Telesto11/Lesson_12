@@ -1,0 +1,368 @@
+/* @import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+/* Обнулення */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+html,
+body{
+	height: 100%;
+}
+body {
+	line-height: 1;
+
+}
+
+/* Шрифт */
+/* @font-face {
+	font-family: "";
+	src: url("../fonts/") format("woff2"), url("../fonts/") format("woff");
+	font-display: ;
+	font-weight: ;
+	font-style: ;
+	}
+  */
+
+/* -- */
+/* transition: all 0.3s ease 0s; */
+body{
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* .wrapper {
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+	padding: 50px;
+} */
+
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+	padding: 50px;
+}
+.main {
+}
+.box{
+	position: relative;
+	margin-bottom: 100px;
+}
+.box p{
+	font-weight: bold;
+	padding: 2px;
+	margin-bottom: 10px;
+	font-size: 24px;
+
+}
+.box__box-0 {
+	background: rgb(160, 135, 135);
+	height: 200px;
+	width: 400px;
+	overflow: hidden;
+}
+.box__box-1 {
+	background: blue;
+	height: 200px;
+	width: 400px;
+	transform: translate(100%,100%);
+}
+
+.box__box-1-1{
+	background: yellow;
+	height: 200px;
+	width: 400px;
+	transform: translate(100%,100%);
+	
+}
+.box__box-0:hover .box__box-1{
+	transform: translate(0%,0%);
+	transition: all 3s ease 0s;
+}
+
+.box__box-0:hover .box__box-1-1{
+	transform: translate(0%,50%);
+	transition: all 2s ease 0s;
+
+}
+.box__box-0:hover{
+	transform: rotate(360deg);
+	transition: all 3s ease 0s;
+}
+/*  */
+.box-tr {
+	position: relative;
+}
+.box-tr__box-0 {
+	background: #000;
+	width: 400px;
+	height: 400px;
+	transform: translate(20%,20%);
+}
+.box-tr__box-1 {
+	background: white;
+	width: 300px;
+	height: 300px;
+	transform: translate(15%,15%);
+}
+.box-tr__box-1-1 {
+	background: black;
+	width: 200px;
+	height: 200px;
+	transform: translate(25%,25%);
+}
+.box-tr__box-1-2 {
+	background: white;
+	width: 100px;
+	height: 100px;
+	transform: translate(50%,50%);
+}
+.box-tr__box-1-3{
+	background: black;
+	width: 50px;
+	height: 50px;
+	transform: translate(50%,50%);
+}
+.box-tr__box-1-4 {
+	background: white;
+	width: 25px;
+	height: 25px;
+	transform: translate(50%,50%);
+}
+.box-tr__box-1-5 {
+	background: black;
+	width: 12.5px;
+	height: 12.5px;
+	transform: translate(50%,50%);
+	
+}
+
+.box-tr__box-1:hover{
+	
+	transform: rotate(180deg);
+	transition: all 4s ease 0s;
+}
+.box-tr__box-1-0:hover{
+	
+	transform: rotate(-90deg);
+	transition: all 4s ease 0s;
+}
+
+.box-tr__box-1-1:hover{
+	
+	transform: rotate(180deg);
+	transition: all 4s ease 0s;
+}
+.box-tr__box-1-2:hover{
+	
+	transform: rotate(-90deg);
+	transition: all 4s ease 0s;
+}
+.box-tr__box-1-3:hover{
+	
+	transform: rotate(180deg);
+	transition: all 4s ease 0s;
+}
+.box-tr__box-1-4:hover{
+	
+	transform: rotate(-90deg);
+	transition: all 4s ease 0s;
+}
+.box-tr__box-1-5:hover{
+	
+	transform: rotate(180deg);
+	transition: all 4s ease 0s;
+}
+
+/*  */
+.circle {
+	padding: 50px;
+	position: relative;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.circle__circle-0 {
+	background: #000;
+	width: 400px;
+	height: 400px;
+	transform: translate(20%,20%);
+	border-radius: 50%;
+}
+.circle__circle-1 {
+	background: white;
+	width: 300px;
+	height: 300px;
+	transform: translate(17%,17%);
+	border-radius: 50%;
+}
+.circle__circle-1-1 {
+	background: black;
+	width: 200px;
+	height: 200px;
+	transform: translate(25%,25%);
+	border-radius: 50%;
+}
+.circle__circle-1-2 {
+	background: white;
+	width: 100px;
+	height: 100px;
+	transform: translate(50%,50%);
+	border-radius: 50%;
+}
+.circle__circle-1-3{
+	background: black;
+	width: 50px;
+	height: 50px;
+	transform: translate(50%,50%);
+	border-radius: 50%;
+}
+.circle__circle-1-4 {
+	background: white;
+	width: 25px;
+	height: 25px;
+	transform: translate(50%,50%);
+	border-radius: 50%;
+}
+.circle__circle-1-5 {
+	background: black;
+	background: url('../img/whereshow.gif') 0 0 / 100% no-repeat;
+	width: 12.5px;
+	height: 12.5px;
+	transform: translate(50%,50%);
+	border-radius: 50%;
+	
+}
+.circle:hover .circle__circle-1-5{
+	
+	transform: scale(31);
+	transition: all 9s ease 0s;
+} 
+/*  */
+.skew {
+	padding: 50px;
+	position: relative;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.skew__skew-0 {
+	background: url('../img/koenigsegg.jpg') 0 0 / 100% no-repeat;
+	height: 400px;
+	width: 400px;
+	transform: skew(360deg, 360deg);
+}
+.skew__skew-0:hover {
+	transform: skew(-360deg, -360deg);
+	transition: all 9s ease 0s;
+	
+}
+/*  */
+.transform2d {
+	background: rgb(132, 120, 120);
+	height: 400px;
+	width: 400px;
+	padding: 50px;
+	position: relative;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.transform2d__transform2d-0 {
+	background: rgba(238, 133, 5, 0.947);
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	transform: translate(300px, 95px) scale(0.5) rotate(44deg) skew(5deg, 5deg);
+}
+.transform2d:hover .transform2d__transform2d-0 {
+	transform: translate(-100px, 152px) scale(0.5) rotate(-360deg);
+	transition: all 5s ease 0s;
+	transform-origin: top;
+}
+/*  */
+.perspective {
+	perspective: 400px;
+	perspective-origin: center 90px;
+	background: rgb(146, 127, 190);
+	height: 400px;
+	width: 405px;
+	padding: 50px;
+	position: relative;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.perspective__perspective-0 {
+
+	background: url('../img/koenigsegg.jpg') 0 0 / 100% no-repeat;
+	height: 400px;
+	width: 400px;
+	transform: rotateY(20deg);
+	
+}
+.perspective__perspective-0:hover {
+	transform: rotateY(200deg);
+
+	transition: all 5s ease 0s;
+}
+/*  */
+.transform-style3d {
+	perspective: 400px;
+	transform-style: preserve-3d;
+	background: rgba(146, 127, 190, 0.355);
+	height: 400px;
+	width: 405px;
+	padding: 50px;
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.transform-style3d__transform-style3d-0 {
+	background: url('../img/koenigsegg.jpg') 0 0 / 100% no-repeat;
+	height: 400px;
+	width: 400px;
+	transform: rotateY(180deg);
+	transition: all 0.3s ease 0s;
+	/* backface-visibility: hidden; */
+}
+.transform-style3d:hover .transform-style3d__transform-style3d-0 {
+	transform: rotateY(0deg);
+	
+}
